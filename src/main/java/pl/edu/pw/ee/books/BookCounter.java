@@ -1,7 +1,5 @@
 package pl.edu.pw.ee.books;
 
-import java.util.Arrays;
-
 public class BookCounter {
     public static int countBooksToRead(BookShelf bookShelf){
         int maxNumOfBooks = 0;
@@ -10,7 +8,7 @@ public class BookCounter {
             int neededTime = 0;
             int readBooks = 0;
 
-            for (int j = i; j >= bookShelf.getNumOfBooks(); j++){
+            for (int j = i; j < bookShelf.getNumOfBooks(); j++){
                 neededTime += bookShelf.getBookReadTime(j);
 
                 if (neededTime <= bookShelf.getFreeTime()){
@@ -20,7 +18,6 @@ public class BookCounter {
                     break;
                 }
             }
-
             maxNumOfBooks = Math.max(maxNumOfBooks, readBooks);
         }
 
