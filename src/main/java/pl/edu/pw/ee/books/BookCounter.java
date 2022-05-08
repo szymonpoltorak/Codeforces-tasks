@@ -1,5 +1,7 @@
 package pl.edu.pw.ee.books;
 
+import java.util.Arrays;
+
 public class BookCounter {
     public static int countBooksToRead(BookShelf bookShelf){
         int maxNumOfBooks = 0;

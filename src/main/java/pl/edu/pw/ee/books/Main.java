@@ -31,7 +31,7 @@ public class Main {
                     throw new IllegalArgumentException("Wrong reading time given for book!");
                 }
             }
-            System.out.println("Max num of books: " + BookCounter.countBooksToRead(bookShelf));
+            System.out.println("Max num of books Task: " + BookCounter.countBooksToRead(bookShelf));
 
         } catch (InputMismatchException exception) {
             System.out.println("You have not given proper value for task!");
