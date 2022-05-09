@@ -31,7 +31,8 @@ public class Main {
                     throw new IllegalArgumentException("Wrong reading time given for book!");
                 }
             }
-            System.out.println( bookShelf + "\n");
+
+            System.out.println(bookShelf + "\n");
             System.out.println("Max num of books Task: " + BookCounter.countBooksToRead(bookShelf));
             in.close();
 
