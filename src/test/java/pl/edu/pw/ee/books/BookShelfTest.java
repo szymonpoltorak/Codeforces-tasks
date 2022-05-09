@@ -3,11 +3,11 @@ package pl.edu.pw.ee.books;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class BookShelfTest {
+class BookShelfTest {
     @Test
-    public void setBookReadTime_test_exception(){
+    void setBookReadTime_test_exception(){
         //given
-        BookShelf bookShelf = new BookShelf(4);
+        var bookShelf = new BookShelf(4);
 
         //when
 

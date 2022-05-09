@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class ChoresTest {
+class ChoresTest {
     private Chores chores;
 
     @BeforeEach
@@ -13,7 +13,7 @@ public class ChoresTest {
     }
 
     @Test
-    public void init_chores_exception(){
+    void init_chores_exception(){
         //given
         int numOfChores = 0;
         int petyaChores = 0;
@@ -26,7 +26,7 @@ public class ChoresTest {
     }
 
     @Test
-    public void setComplexity_exception(){
+    void setComplexity_exception(){
         //given
         int complexity = 0;
         int index = 1;
@@ -38,7 +38,7 @@ public class ChoresTest {
     }
 
     @Test
-    public void getNumOfWays_test_pass(){
+    void getNumOfWays_test_pass(){
         //given
         int expected = 3;
         chores.setComplexity(0, 6);

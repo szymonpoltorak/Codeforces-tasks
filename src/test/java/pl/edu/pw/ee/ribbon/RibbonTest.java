@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class RibbonTest {
+class RibbonTest {
     private Ribbon ribbon;
 
     @BeforeEach
@@ -13,7 +13,7 @@ public class RibbonTest {
     }
 
     @Test
-    public void init_ribbon_exception(){
+    void init_ribbon_exception(){
         //given
         int totalLength = -1;
 
@@ -24,7 +24,7 @@ public class RibbonTest {
     }
 
     @Test
-    public void setPieces_illegal_argument_exception(){
+    void setPieces_illegal_argument_exception(){
         //given
         int piece = -1;
         int index = 0;
@@ -36,7 +36,7 @@ public class RibbonTest {
     }
 
     @Test
-    public void setPieces_array_out_bonds_exception(){
+    void setPieces_array_out_bonds_exception(){
         //given
         int piece = -1;
         int index = 0;
@@ -48,7 +48,7 @@ public class RibbonTest {
     }
 
     @Test
-    public void countMaxNumber_test_pass(){
+    void countMaxNumber_test_pass(){
         //given
         int expected = 2;
 

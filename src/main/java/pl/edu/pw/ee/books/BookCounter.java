@@ -3,6 +3,8 @@ package pl.edu.pw.ee.books;
 import org.jetbrains.annotations.NotNull;
 
 public class BookCounter {
+    private BookCounter(){}
+
     public static int countBooksToRead(@NotNull BookShelf bookShelf){
         int maxNumOfBooks = 0;
 
