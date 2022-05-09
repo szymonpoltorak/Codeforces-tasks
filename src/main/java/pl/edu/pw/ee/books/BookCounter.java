@@ -1,7 +1,9 @@
 package pl.edu.pw.ee.books;
 
+import org.jetbrains.annotations.NotNull;
+
 public class BookCounter {
-    public static int countBooksToRead(BookShelf bookShelf){
+    public static int countBooksToRead(@NotNull BookShelf bookShelf){
         int maxNumOfBooks = 0;
 
         for (int i = 0; i < bookShelf.getNumOfBooks(); i++){

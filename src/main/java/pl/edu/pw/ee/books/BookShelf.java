@@ -1,8 +1,6 @@
 package pl.edu.pw.ee.books;
 
 import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
 
 public class BookShelf {
     private int freeTime;
