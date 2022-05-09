@@ -6,6 +6,8 @@ In this repository i store my solutions to Codeforces tasks. All of them are wri
 to be read, amount of users free time and time of each book needs to be read,
 * [Chores](https://codeforces.com/problemset/problem/169/A) - program needs giving number of chores and Petya's and 
 Vasya's number of chores.
+* [Cut Ribbon](https://codeforces.com/problemset/problem/189/A?locale=en) - program needs a length of ribbon and lengths 
+of each ribbon to be cut,
 
 # Environment versions
 * JDK 17.03 LTS,
