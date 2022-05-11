@@ -3,8 +3,8 @@ package pl.edu.pw.ee.chores;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
+public class Main  {
+    public static void main(String[] args) throws InputMismatchException {
         Scanner in = new Scanner(System.in);
 
         try {

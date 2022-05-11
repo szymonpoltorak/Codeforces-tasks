@@ -35,14 +35,14 @@ public class Ribbon {
     }
 
     public int countMaxNumber(){
-        int maxNumber = 0;
+        var maxNumber = 0;
 
         for (int i = 0; i < 3; i++){
-            int size = 0;
-            int number = 0;
+            var size = 0;
+            var number = 0;
 
             for (int j = i; j < 3; j++){
-                int newSize = size + pieces[j];
+                var newSize = size + pieces[j];
 
                 if (newSize <= totalLength){
                     number++;

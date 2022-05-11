@@ -15,9 +15,9 @@ class ChoresTest {
     @Test
     void init_chores_exception(){
         //given
-        int numOfChores = 0;
-        int petyaChores = 0;
-        int vasyaChores = 0;
+        var numOfChores = 0;
+        var petyaChores = 0;
+        var vasyaChores = 0;
 
         //when
 
@@ -28,8 +28,8 @@ class ChoresTest {
     @Test
     void setComplexity_exception(){
         //given
-        int complexity = 0;
-        int index = 1;
+        var complexity = 0;
+        var index = 1;
 
         //when
 
@@ -40,7 +40,7 @@ class ChoresTest {
     @Test
     void getNumOfWays_test_pass(){
         //given
-        int expected = 3;
+        var expected = 3;
         chores.setComplexity(0, 6);
         chores.setComplexity(1, 2);
         chores.setComplexity(2, 3);
@@ -48,7 +48,7 @@ class ChoresTest {
         chores.setComplexity(4, 1);
 
         //when
-        int result = chores.getNumOfWays();
+        var result = chores.getNumOfWays();
 
         //then
         Assertions.assertEquals(expected, result);

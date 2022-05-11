@@ -15,7 +15,7 @@ class RibbonTest {
     @Test
     void init_ribbon_exception(){
         //given
-        int totalLength = -1;
+        var totalLength = -1;
 
         //when
 
@@ -26,8 +26,8 @@ class RibbonTest {
     @Test
     void setPieces_illegal_argument_exception(){
         //given
-        int piece = -1;
-        int index = 0;
+        var piece = -1;
+        var index = 0;
 
         //when
 
@@ -38,8 +38,8 @@ class RibbonTest {
     @Test
     void setPieces_array_out_bonds_exception(){
         //given
-        int piece = -1;
-        int index = 0;
+        var piece = -1;
+        var index = 0;
 
         //when
 
@@ -50,14 +50,14 @@ class RibbonTest {
     @Test
     void countMaxNumber_test_pass(){
         //given
-        int expected = 2;
+        var expected = 2;
 
         ribbon.setPieces(0, 5);
         ribbon.setPieces(1, 3);
         ribbon.setPieces(2, 2);
 
         //when
-        int result = ribbon.countMaxNumber();
+        var result = ribbon.countMaxNumber();
 
         //then
         Assertions.assertEquals(expected, result);

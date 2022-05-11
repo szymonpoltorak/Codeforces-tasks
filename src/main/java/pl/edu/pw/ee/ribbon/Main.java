@@ -1,9 +1,10 @@
 package pl.edu.pw.ee.ribbon;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InputMismatchException {
         Scanner in = new Scanner(System.in);
 
         System.out.print("Please give me a ribbons total length: ");
