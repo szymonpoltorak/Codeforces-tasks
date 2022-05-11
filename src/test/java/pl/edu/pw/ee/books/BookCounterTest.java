@@ -9,10 +9,10 @@ class BookCounterTest {
         //given
         var booksTime = new int[]{ 2, 2 ,3 };
         var bookShelf = new BookShelf(3, booksTime);
-        int expected = 1;
+        var expected = 1;
 
         //when
-        int result = BookCounter.countBooksToRead(bookShelf);
+        var result = BookCounter.countBooksToRead(bookShelf);
 
         //then
         Assertions.assertEquals(expected, result);

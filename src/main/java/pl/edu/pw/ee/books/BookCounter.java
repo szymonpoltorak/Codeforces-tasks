@@ -6,11 +6,11 @@ public class BookCounter {
     private BookCounter(){}
 
     public static int countBooksToRead(@NotNull BookShelf bookShelf){
-        int maxNumOfBooks = 0;
+        var maxNumOfBooks = 0;
 
         for (int i = 0; i < bookShelf.getNumOfBooks(); i++){
-            int neededTime = 0;
-            int readBooks = 0;
+            var neededTime = 0;
+            var readBooks = 0;
 
             for (int j = i; j < bookShelf.getNumOfBooks(); j++){
                 neededTime += bookShelf.getBookReadTime(j);
