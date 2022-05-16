@@ -1,5 +1,5 @@
 # Codeforces - tasks
-In this repository i store my solutions to Codeforces tasks. All of them are written in Java.
+In this repository I store my solutions to Codeforces tasks. All of them are written in Java.
 
 # Tasks
 * [Books](https://codeforces.com/problemset/problem/279/B?locale=en) - programme asks user to give it number of books 

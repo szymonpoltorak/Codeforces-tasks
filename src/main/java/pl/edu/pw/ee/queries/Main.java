@@ -1,11 +1,10 @@
 package pl.edu.pw.ee.queries;
 
-import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         try (var in = new Scanner(System.in)) {
             System.out.print("Please give me a number of test cases: ");
             int tests = in.nextInt();
@@ -40,7 +39,10 @@ public class Main {
                 for (int i = 0; i < queries.length; i++) {
                     queries[i] = in.nextInt();
                 }
-                Queries.solveQueries(candies, queries);
+
+                for (int i = 0; i < queries.length; i++){
+                    System.out.printf("Number of candies for queries[%d]: %d%n", i, Queries.solveQuery(candies, queries, i));
+                }
             }
         } catch (InputMismatchException exception) {
             System.err.println("Wrong input given!");
