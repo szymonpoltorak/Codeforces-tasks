@@ -9,7 +9,9 @@ Vasya's number of chores,
 * [Cut Ribbon](https://codeforces.com/problemset/problem/189/A?locale=en) - program needs a length of ribbon and lengths 
 of each ribbon to be cut,
 * [Party](https://codeforces.com/problemset/problem/115/A) - program needs from user giving number of employees and manager of each employee.
-Program starts indexing employees from 1 as it is on tasks site.
+Program starts indexing employees from 1 as it is on tasks site,
+* [Eating Queries](https://codeforces.com/contest/1676/problem/E?locale=en) - made to solve problem of eating queries.
+I did not cover every validation condition because it does not matter in final result.
 
 # Environment versions
 * JDK 17.03 LTS,
