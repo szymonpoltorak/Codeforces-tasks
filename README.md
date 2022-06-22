@@ -11,7 +11,8 @@ of each ribbon to be cut,
 * [Party](https://codeforces.com/problemset/problem/115/A) - program needs from user giving number of employees and manager of each employee.
 Program starts indexing employees from 1 as it is on tasks site,
 * [Eating Queries](https://codeforces.com/contest/1676/problem/E?locale=en) - made to solve problem of eating queries.
-I did not cover every validation condition because it does not matter in final result.
+I did not cover every validation condition because it does not matter in final result,
+* [Interesting drink](https://codeforces.com/problemset/problem/706/B).
 
 # Environment versions
 * JDK 17.03 LTS,
